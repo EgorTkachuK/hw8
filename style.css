@@ -1,0 +1,23 @@
+/* Завдання перше
+.div:first-child {
+    color: red;
+}
+#greycol{color: grey;}
+.text-box:first-child {
+    color: pink;
+}
+.yellow+p{color: green;}
+.yellow{color: yellow;} */
+.monday:nth-child(odd){color: darkblue;}
+.monday:nth-child(even){color:yellow;}
+.tuesday:first-child{color: black;}
+.tuesday:nth-child(n+1){color: white;}
+.tuesday:last-child{color: red;}
+.wednesday:nth-child(-n+2){color: red;}
+.wednesday:nth-child(3){color: white;}
+.wednesday:nth-child(4){color: white;}
+.wednesday:nth-child(5){color: white;}
+.wednesday:nth-child(6){color: blue;}
+.wednesday:nth-child(7){color: blue;}
+.thursday:hover{color:aqua ;}
+.friday:not(0000000){color: black;}
